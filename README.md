@@ -35,15 +35,15 @@ Dibangun menggunakan framework **Laravel**, aplikasi ini memungkinkan pengguna u
    
    cd UAS-PBW
    
-3. **Instal dependensi Composer**
+2. **Instal dependensi Composer**
    
    composer install
 
-4. **Konfigurasi environment**
+3. **Konfigurasi environment**
    
    cp .env.example .env
    
-6. Edit file .env dan sesuaikan konfigurasi database:
+4. Edit file .env dan sesuaikan konfigurasi database:
    
    DB_DATABASE=nama_database
    
@@ -51,18 +51,18 @@ Dibangun menggunakan framework **Laravel**, aplikasi ini memungkinkan pengguna u
    
    DB_PASSWORD=
 
-7.**buat key**
-
+5. **buat key**
+   
    php artisan key:generate
 
-8. **Migrasi database**
+6. **Migrasi database**
    
    php artisan migrate
 
-9. **Buat symbolic link untuk storage**
+7. **Buat symbolic link untuk storage**
     
     php artisan storage:link
 
-10. **Jalankan server pengembangan**
+8. **Jalankan server pengembangan**
     
     php artisan serve
