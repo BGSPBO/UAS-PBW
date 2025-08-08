@@ -32,23 +32,26 @@ Dibangun menggunakan framework **Laravel**, aplikasi ini memungkinkan pengguna u
 1. **Clone repositori**
    
    git clone https://github.com/BGSPBO/UAS-PBW.git
+   
    cd UAS-PBW
    
 3. **Instal dependensi Composer**
    
    composer install
 
-5. **Konfigurasi environment**
+4. **Konfigurasi environment**
    
    cp .env.example .env
    php artisan key:generate
 
-7. **Migrasi database**
+5. **Migrasi database**
    
    php artisan migrate
 
-9. **Buat symbolic link untuk storage**
+6. **Buat symbolic link untuk storage**
+    
     php artisan storage:link
 
-10. **Jalankan server pengembangan**
+7. **Jalankan server pengembangan**
+    
     php artisan serve
