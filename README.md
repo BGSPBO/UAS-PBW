@@ -46,7 +46,9 @@ Dibangun menggunakan framework **Laravel**, aplikasi ini memungkinkan pengguna u
 6. Edit file .env dan sesuaikan konfigurasi database:
    
    DB_DATABASE=nama_database
+   
    DB_USERNAME=root
+   
    DB_PASSWORD=
 
 7.**buat key**
