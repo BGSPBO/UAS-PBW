@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ✅ Laravel To-Do List - C2C023031
 
 Aplikasi Laravel sederhana untuk mencatat daftar tugas harian, mendukung multi-user, sistem delegasi tugas, reminder otomatis, dan fitur autentikasi (login, logout, dan manajemen profil).
@@ -67,3 +68,6 @@ Klik tombol **Register**, isi form pendaftaran, lalu login ke aplikasi.
 
 ## 📝 Lisensi
 Proyek ini dibuat untuk keperluan akademik dan pembelajaran. Bebas digunakan dan dimodifikasi.
+=======
+# UAS-PBW
+>>>>>>> 23c3988762adbf9b79af1d274567f1781b9840ce
