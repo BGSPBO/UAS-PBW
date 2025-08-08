@@ -1,73 +1,50 @@
-<<<<<<< HEAD
-# ✅ Laravel To-Do List - C2C023031
+# 📌 UAS – Proyek Manajemen Tugas
 
-Aplikasi Laravel sederhana untuk mencatat daftar tugas harian, mendukung multi-user, sistem delegasi tugas, reminder otomatis, dan fitur autentikasi (login, logout, dan manajemen profil).
+## 📖 Deskripsi Proyek
+Aplikasi ini adalah sebuah platform web untuk manajemen tugas pribadi dan delegasi.  
+Dibangun menggunakan framework **Laravel**, aplikasi ini memungkinkan pengguna untuk membuat, melacak, dan mengelola tugas mereka dengan fitur-fitur seperti **prioritas, kategori, pengingat, dan lampiran file**.
 
-## 🚀 Fitur Utama
-- ✅ Tambah, ubah, hapus tugas
-- 👥 Delegasi tugas ke pengguna lain
-- ⏰ Reminder otomatis H-3 sebelum deadline
-- 🔐 Autentikasi user (login, register, logout)
-- 📁 Manajemen profil user
-- 📊 Filter tugas: selesai, belum selesai, delegasi
+---
 
-## 📦 Cara Menjalankan Proyek Ini
+## 🚀 Fitur-Fitur Utama
+- 🔐 **Autentikasi Pengguna** – Login dan Register.
+- 📝 **CRUD Tugas** – Buat, baca, perbarui, dan hapus tugas pribadi.
+- 📂 **CRUD Kategori** – Mengatur kategori untuk pengorganisasian tugas.
+- 👥 **Delegasi Tugas** – Menugaskan tugas kepada pengguna lain.
+- 📎 **Unggah Lampiran** – Melampirkan dokumen atau gambar pada tugas.
+- 🔍 **Pencarian & Filter** – Menyaring tugas berdasarkan kata kunci atau kategori.
+- ⏰ **Notifikasi Pengingat** – Pengingat otomatis untuk tugas yang mendekati tenggat.
+- 📄 **Ekspor ke PDF** – Mengunduh daftar tugas dalam format PDF.
+- 📱 **Antarmuka Responsif** – Tampilan optimal untuk desktop & mobile.
 
-### 1. Clone Repository
-git clone https://github.com/BGSPBO/todo-list-C2C023031.git
-```
+---
 
-### 2. Masuk ke Folder Proyek
-cd todo-list-C2C023031
-```
+## 🛠️ Teknologi yang Digunakan
+- **Backend:** Laravel
+- **Frontend:** Tailwind CSS
+- **Database:** MySQL  
+- **Library Tambahan:**
+  - `barryvdh/laravel-dompdf` – untuk ekspor PDF
 
-### 3. Install Dependency Laravel
-composer install
-```
+---
 
-### 4. Salin File `.env` dan Sesuaikan Konfigurasi
-cp .env.example .env
-```
-Lalu edit file `.env` dan sesuaikan bagian berikut:
-```
-DB_DATABASE=laravel atau todo-list-a kalau sudah ada
-DB_USERNAME=root
-DB_PASSWORD=
-```
+## ⚙️ Cara Instalasi
+1. **Clone repositori**
+   git clone https://github.com/BGSPBO/UAS-PBW.git
+   cd UAS-PBW
+   
+2. **Instal dependensi Composer**
+   composer install
 
-### 5. Generate App Key
-```bash
-php artisan key:generate
-```
+3. **Konfigurasi environment**
+   cp .env.example .env
+   php artisan key:generate
 
-### 6. Buat Database
-Masuk ke [http://localhost/phpmyadmin](http://localhost/phpmyadmin), lalu buat database baru dengan nama:
-```
-laravel atau todo-list-a kalau sudah ada
-```
+4. **Migrasi database**
+   php artisan migrate
 
-### 7. Jalankan Migrasi
-php artisan migrate
-```
+5. **Buat symbolic link untuk storage**
+    php artisan storage:link
 
-### 8. Jalankan Laravel
-php artisan serve
-```
-Lalu buka browser dan akses:
-```
-http://127.0.0.1:8000
-```
-
-### 9. Daftar Akun
-Klik tombol **Register**, isi form pendaftaran, lalu login ke aplikasi.
-
-## 👨‍💻 Developer
-**Nama:** Bagus Prabowo  
-**NIM:** C2C023031  
-**Universitas Muhammadiyah Semarang**
-
-## 📝 Lisensi
-Proyek ini dibuat untuk keperluan akademik dan pembelajaran. Bebas digunakan dan dimodifikasi.
-=======
-# UAS-PBW
->>>>>>> 23c3988762adbf9b79af1d274567f1781b9840ce
+6. **Jalankan server pengembangan**
+    php artisan serve
